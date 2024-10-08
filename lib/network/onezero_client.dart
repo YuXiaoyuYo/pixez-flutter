@@ -22,7 +22,7 @@ import 'package:pixez/models/onezero_response.dart';
 
 class OnezeroClient {
   late Dio httpClient;
-  static const String URL_DNS_RESOLVER = "https://doh.dns.sb";
+  static const String URL_DNS_RESOLVER = "https://dns.alidns.com";
 
   OnezeroClient() {
     this.httpClient = Dio(BaseOptions(
